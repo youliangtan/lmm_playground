@@ -1,0 +1,4 @@
+# num_gpu : offload how many layers to GPU
+# FROM mixtral:8x7b-instruct-v0.1-q4_K_S
+FROM mixtral:8x7b-instruct-v0.1-q3_K_S
+PARAMETER num_gpu 33
